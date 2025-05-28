@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200">
+  <!-- Definitions -->
+  <style>
+    .dot { r: 10; }
+  </style>
+  <!-- Adjust the starting position of your letters by modifying the first transform -->
+  <g transform="translate(20,20)">
+    <!-- Dot generator (x = column, y = row) -->
+    <!-- D -->
+    <g transform="translate(0,0)">
+        <!-- Letter D shape -->
+    <!-- Top row: 4 dots on cy=0, cx increment by 25 -->
+    <circle class="dot" fill="#ffffff" cx="0" cy="0" />
+    <circle class="dot" fill="#98fbb9" cx="25" cy="0" />
+    <circle class="dot" fill="#fea9ed" cx="50" cy="0" />
+    <circle class="dot" fill="#ffffff" cx="75" cy="0" />
+    
+    <!-- Left column: 7 dots on cx=0, cy increment by 25 -->
+    <circle class="dot" fill="#ffffff" cx="0" cy="0" />
+    <circle class="dot" fill="#f9fe71" cx="10" cy="25" />
+    <circle class="dot" fill="#00ffff" cx="10" cy="50" />
+    <circle class="dot" fill="#98fbb9" cx="10" cy="75" />
+    <circle class="dot" fill="#fea9ed" cx="10" cy="100" />
+    <circle class="dot" fill="#ffffff" cx="10" cy="125" />
+    <circle class="dot" fill="#f9fe71" cx="0" cy="150" />
+    
+    <!-- Right column: 6 dots on cx=100, cy increment by 25 (curved part of D) -->
+    <circle class="dot" fill="#fea9ed" cx="100" cy="25" />
+    <circle class="dot" fill="#00ffff" cx="100" cy="50" />
+    <circle class="dot" fill="#ffffff" cx="100" cy="75" />
+    <circle class="dot" fill="#98fbb9" cx="100" cy="100" />
+    <circle class="dot" fill="#00ffff" cx="100" cy="125" />
+    
+    <!-- Bottom row: 4 dots on cy=150, cx increment by 25 -->
+    <circle class="dot" fill="#00ffff" cx="25" cy="150" />
+    <circle class="dot" fill="#fea9ed" cx="50" cy="150" />
+    <circle class="dot" fill="#ffffff" cx="75" cy="150" />
+    </g>
+
+    <!-- A -->
+    <g transform="translate(150,0)">
+    <!-- Letter A shape -->
+    <!-- Top point of triangle -->
+    <circle class="dot" fill="#fea9ed" cx="50" cy="0" />
+    
+    <!-- Left side of triangle: 6 dots going down diagonally -->
+    <circle class="dot" fill="#00ffff" cx="30" cy="25" />
+    <circle class="dot" fill="#98fbb9" cx="20" cy="50" />
+    <circle class="dot" fill="#ffffff" cx="10" cy="75" />
+    <circle class="dot" fill="#f9fe71" cx="0" cy="100" />
+    <circle class="dot" fill="#00ffff" cx="0" cy="125" />
+    <circle class="dot" fill="#fea9ed" cx="0" cy="150" />
+    
+    <!-- Right side of triangle: 6 dots going down diagonally -->
+    <circle class="dot" fill="#98fbb9" cx="70" cy="25" />
+    <circle class="dot" fill="#fea9ed" cx="80" cy="50" />
+    <circle class="dot" fill="#ffffff" cx="90" cy="75" />
+    <circle class="dot" fill="#f9fe71" cx="100" cy="100" />
+    <circle class="dot" fill="#98fbb9" cx="100" cy="125" />
+    <circle class="dot" fill="#ffffff" cx="100" cy="150" />
+    
+    <!-- Cross bar (middle horizontal line) -->
+    <circle class="dot" fill="#f9fe71" cx="25" cy="100" />
+    <circle class="dot" fill="#fea9ed" cx="50" cy="100" />
+    <circle class="dot" fill="#00ffff" cx="75" cy="100" />
+    </g>
+
+    <!-- R -->
+    <g transform="translate(300,0)">
+    <!-- Letter R shape -->
+    <!-- Vertical line: straight down on cx=0 -->
+    <circle class="dot" fill="#f9fe71" cx="0" cy="0" />
+    <circle class="dot" fill="#00ffff" cx="0" cy="25" />
+    <circle class="dot" fill="#fea9ed" cx="0" cy="50" />
+    <circle class="dot" fill="#ffffff" cx="0" cy="75" />
+    <circle class="dot" fill="#98fbb9" cx="0" cy="100" />
+    <circle class="dot" fill="#f9fe71" cx="0" cy="125" />
+    <circle class="dot" fill="#00ffff" cx="0" cy="150" />
+    
+    <!-- Top horizontal line: go right from cx=0 cy=0 -->
+    <circle class="dot" fill="#00ffff" cx="25" cy="0" />
+    <circle class="dot" fill="#98fbb9" cx="50" cy="0" />
+    <circle class="dot" fill="#fea9ed" cx="75" cy="0" />
+    
+    <!-- Middle horizontal line: go right from cx=0 cy=75 -->
+    <circle class="dot" fill="#fea9ed" cx="25" cy="75" />
+    <circle class="dot" fill="#00ffff" cx="50" cy="75" />
+    <circle class="dot" fill="#98fbb9" cx="75" cy="75" />
+    
+    <!-- Right vertical line: straight down from cx=75 -->
+    <circle class="dot" fill="#ffffff" cx="90" cy="25" />
+    <circle class="dot" fill="#f9fe71" cx="90" cy="50" />
+    
+    <!-- Diagonal leg of R: from middle-right down to bottom-right -->
+    <circle class="dot" fill="#00ffff" cx="75" cy="100" />
+    <circle class="dot" fill="#ffffff" cx="80" cy="125" />
+    <circle class="dot" fill="#f9fe71" cx="90" cy="150" />
+    </g>
+
+    <!-- I -->
+    <g transform="translate(450,0)">
+      <circle class="dot" fill="#98fbb9" cx="0" cy="0" />
+      <circle class="dot" fill="#fea9ed" cx="25" cy="0" />
+      <circle class="dot" fill="#ffffff" cx="50" cy="0" />
+      <circle class="dot" fill="#00ffff" cx="75" cy="0" />
+      <circle class="dot" fill="#ffffff" cx="100" cy="0" />
+      <circle class="dot" fill="#f9fe71" cx="50" cy="25" />
+      <circle class="dot" fill="#00ffff" cx="50" cy="50" />
+      <circle class="dot" fill="#98fbb9" cx="50" cy="75" />
+      <circle class="dot" fill="#fea9ed" cx="50" cy="100" />
+      <circle class="dot" fill="#00ffff" cx="50" cy="125" />
+      <circle class="dot" fill="#ffffff" cx="50" cy="150" />
+      <circle class="dot" fill="#00ffff" cx="0" cy="150" />
+      <circle class="dot" fill="#fea9ed" cx="25" cy="150" />
+      <circle class="dot" fill="#ffffff" cx="50" cy="150" />
+      <circle class="dot" fill="#00ffff" cx="75" cy="150" />
+      <circle class="dot" fill="#98fbb9" cx="100" cy="150" />
+    </g>
+
+    <!-- A (again) -->
+    <g transform="translate(600,0)">
+    <!-- Letter A shape -->
+    <!-- Top point of triangle -->
+    <circle class="dot" fill="#fea9ed" cx="50" cy="0" />
+    
+    <!-- Left side of triangle: 6 dots going down diagonally -->
+    <circle class="dot" fill="#00ffff" cx="30" cy="25" />
+    <circle class="dot" fill="#98fbb9" cx="20" cy="50" />
+    <circle class="dot" fill="#ffffff" cx="10" cy="75" />
+    <circle class="dot" fill="#f9fe71" cx="0" cy="100" />
+    <circle class="dot" fill="#00ffff" cx="0" cy="125" />
+    <circle class="dot" fill="#fea9ed" cx="0" cy="150" />
+    
+    <!-- Right side of triangle: 6 dots going down diagonally -->
+    <circle class="dot" fill="#98fbb9" cx="70" cy="25" />
+    <circle class="dot" fill="#fea9ed" cx="80" cy="50" />
+    <circle class="dot" fill="#ffffff" cx="90" cy="75" />
+    <circle class="dot" fill="#f9fe71" cx="100" cy="100" />
+    <circle class="dot" fill="#98fbb9" cx="100" cy="125" />
+    <circle class="dot" fill="#ffffff" cx="100" cy="150" />
+    
+    <!-- Cross bar (middle horizontal line) -->
+    <circle class="dot" fill="#f9fe71" cx="25" cy="100" />
+    <circle class="dot" fill="#fea9ed" cx="50" cy="100" />
+    <circle class="dot" fill="#00ffff" cx="75" cy="100" />
+    </g>
+
+    <!-- N -->
+    <g transform="translate(750,0)">
+      <circle class="dot" fill="#ffffff" cx="0" cy="0" />
+      <circle class="dot" fill="#f9fe71" cx="0" cy="25" />
+      <circle class="dot" fill="#00ffff" cx="0" cy="50" />
+      <circle class="dot" fill="#fea9ed" cx="0" cy="75" />
+      <circle class="dot" fill="#98fbb9" cx="0" cy="100" />
+      <circle class="dot" fill="#f9fe71" cx="0" cy="125" />
+      <circle class="dot" fill="#fea9ed" cx="0" cy="150" />
+      <circle class="dot" fill="#f9fe71" cx="25" cy="30" />
+      <circle class="dot" fill="#00ffff" cx="41.67" cy="60" />
+      <circle class="dot" fill="#f9fe71" cx="58.33" cy="90" />
+      <circle class="dot" fill="#00ffff" cx="75" cy="120" />
+      <circle class="dot" fill="#98fbb9" cx="100" cy="0" />
+      <circle class="dot" fill="#ffffff" cx="100" cy="25" />
+      <circle class="dot" fill="#00ffff" cx="100" cy="50" />
+      <circle class="dot" fill="#98fbb9" cx="100" cy="75" />
+      <circle class="dot" fill="#fea9ed" cx="100" cy="100" />
+      <circle class="dot" fill="#f9fe71" cx="100" cy="125" />
+      <circle class="dot" fill="#98fbb9" cx="100" cy="150" />
+    </g>
+  </g>
+</svg>
